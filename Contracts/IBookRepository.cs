@@ -8,7 +8,7 @@ namespace Biblioteca_API.Contracts
         List<Book> Get();
         Book Get(int id);
         bool Create(Book book);
-        bool Update(Book book);
+        bool Update(int id, Book book);
         bool Delete(int id);
     }   
 }
